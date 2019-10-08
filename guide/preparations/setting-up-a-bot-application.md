@@ -24,7 +24,7 @@ Click the "Add Bot" button on the right and confirm the pop-up window by clickin
 ## Your token
 
 ::: danger
-This section is very important, so pay close attention. It explains what your bot token is, as well as the security aspects of it.
+This section is very, very important, so pay close attention. It explains what your bot token is, as well as the security aspects of it.
 :::
 
 After creating a bot user, you'll see a section like this:
@@ -35,7 +35,7 @@ In this panel, you can give your bot a snazzy avatar, set its username, and make
 
 ### What is a token, anyway?
 
-A token is essentially your bot's password; it's what your bot uses to login to Discord. With that being said, **it is vital that you do not ever share this token with anybody, purposely or accidentally**. If someone does manage to get a hold of your token, they can use your bot as if it were theirs—this means they can perform malicious acts with it.
+A token is essentially your bot's password; it's what your bot uses to login to Discord. With that being said, **it is vital that you do not ever share this token with anybody, purposely or accidentally**. If someone does manage to get a hold of your token, they can use your bot as if it were theirs — this means they can perform malicious acts with it.
 
 ### Token leak scenario
 
@@ -50,5 +50,5 @@ Let's imagine that you have a bot on over 1,000 servers, and it took you many, m
 All that and much, much more. Sounds pretty terrible, right? So make sure to keep your token as safe as possible!
 
 ::: danger
-If you ever somehow leak your token (commit it to a repository, post it in a support channel, etc.) or otherwise see your bot in danger, return to this page and regenerate a new one. Your old token will become invalid and you'll need to update it with the new one in all the places you've used it.
+If you ever somehow leak your token (commit it to a repository, post it in a support channel, etc.) or otherwise see your bot in danger, return to this page and regenerate a new one. Your old token will become invalid and you'll need to update it with the new one in all the places you've used it. Luckily, if you have it set up correctly, Discord will track down public tokens, regenerate a new one, and send you a email.
 :::
